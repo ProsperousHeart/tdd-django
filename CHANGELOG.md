@@ -24,3 +24,8 @@ TBD
 - code of conduct
 - PR template
 - issue templates (bug, feature, documentation)
+- new folder for what I'll learn with TEstDriven.io course
+
+### Changed
+
+- Updated README with additional information (incomplete, since building multiple apps here)
