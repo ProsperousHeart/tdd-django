@@ -23,6 +23,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated main README with additional information (incomplete, since building multiple apps here)
 - updated TEstDrivenIO README with additional useful tips
 
+### Removed
+
+- TestDrivenIO requirements ... only added the two main installs (which should install the others when run)
+
 ## [1.1.0] - 2024-05-10
 
 ### Added
