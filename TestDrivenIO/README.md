@@ -7,7 +7,7 @@ This course covered a wide variety of technologies and services:
 ## Core
 1. Python
 2. Django
-3. Docker
+3. [Docker](https://docs.docker.com/get-docker/)
 4. Postgres
 5. Django REST Framework
 6. Gunicorn
