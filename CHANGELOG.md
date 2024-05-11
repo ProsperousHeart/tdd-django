@@ -23,6 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated main README with additional information (incomplete, since building multiple apps here)
 - updated TestDrivenIO README with additional useful tips & link to Docker info
 - updated .gitignore to include all sqlite3 items, not just the default template ones
+- removed deprecated version from `docker-compose.yml`
 
 ### Removed
 
