@@ -21,7 +21,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Updated main README with additional information (incomplete, since building multiple apps here)
-- updated TEstDrivenIO README with additional useful tips
+- updated TestDrivenIO README with additional useful tips
+- updated .gitignore to include all sqlite3 items, not just the default template ones
 
 ### Removed
 
