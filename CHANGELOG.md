@@ -28,4 +28,5 @@ TBD
 
 ### Changed
 
-- Updated README with additional information (incomplete, since building multiple apps here)
+- Updated main README with additional information (incomplete, since building multiple apps here)
+- updated TEstDrivenIO README with additional useful tips

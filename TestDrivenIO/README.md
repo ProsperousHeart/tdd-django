@@ -34,3 +34,7 @@ This course covered a wide variety of technologies and services:
 | /api/movies | POST | CREATE | add a movie |
 | /api/movies/:id | PUT | UPDATE | update a movie |
 | /api/movies/:id | DELETE | DELETE | delete a movie |
+
+# Lessons Learned
+
+It's a good idea to configure a custom User model when [starting a new Django project](https://docs.djangoproject.com/en/4.1/topics/auth/customizing/#using-a-custom-user-model-when-starting-a-project). For more, review [Creating a Custom User Model in Django](https://testdriven.io/blog/django-custom-user-model).
