@@ -27,6 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Removed
 
 - TestDrivenIO requirements ... only added the two main installs (which should install the others when run)
+- TestDrivenIO SQL DB - we'll be using postgres
 
 ## [1.1.0] - 2024-05-10
 
