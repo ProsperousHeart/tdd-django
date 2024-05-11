@@ -13,7 +13,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-TBD
+### Added
+
+- new folder for what I'll learn with TEstDriven.io course
+- requirements.txt for main project and TestDrivenIO
+
+### Changed
+
+- Updated main README with additional information (incomplete, since building multiple apps here)
+- updated TEstDrivenIO README with additional useful tips
 
 ## [1.1.0] - 2024-05-10
 
@@ -24,9 +32,3 @@ TBD
 - code of conduct
 - PR template
 - issue templates (bug, feature, documentation)
-- new folder for what I'll learn with TEstDriven.io course
-
-### Changed
-
-- Updated main README with additional information (incomplete, since building multiple apps here)
-- updated TEstDrivenIO README with additional useful tips
