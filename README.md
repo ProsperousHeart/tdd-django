@@ -1,20 +1,24 @@
-# Name of Your Project
-An introduction paragraph must contain a brief fescription of the project. If there are acronymns, create a section with a [table](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables) for this so they can be spelled out correctly.
+# TDD With Django
+
+In order to gain better insight to TDD and Django, I need to go through a few different tutorials. In this repo, I will work on building apps related to the following:
+- TDD [Read the Docs](https://test-driven-django-development.readthedocs.io/en/latest/) where you will write a well tested, Django-based blog website
+- TestDrive.io's [tutorial](https://testdriven.io/courses/tdd-django/getting-started/) -- will start with this one! (creates a RESTful API using TDD)
+- RealPython's [tutorial](https://realpython.com/django-1-6-test-driven-development/)
+- PyMeister's [tutorial](https://dev.to/pymeister/test-driven-development-with-django-32n8)
+
+The audience for this repo is mostly myself, but may be used in teaching my students and/or leveraging for my clients.
 
 ## Acronymns
 
 | Acronymn | spelled out | description as needed |
-| :---: | :--- | ---: |
-| `CC` | Content Cell | a place in the table |
-
-Your introduction should also include:
-- 1-1 sentences describing the problem to solve
-- audience / end user the solution is for
-- how to run
+| :---: | :--- | :--- |
+| `TDD` | [Test Driven Development](https://testdriven.io/test-driven-development/) | a methodology in software development that focuses on an iterative development cycle where the emphasis is placed on writing test cases before the actual feature or function is written & utilizes repetition of short development cycles |
 
 ## Requirements
 
-What are the requirements for success of thsi repo? What are your milestones, nice to haves, etc?
+The [first milestone](https://github.com/ProsperousHeart/tdd-django/milestone/1) is to complete the course that TestDriven.io has. Additional information about this milestone can be found [here](TestDrivenIO/README.md).
+
+Additional milestones will be other tutorials as needed.
 
 # Getting Started
 
@@ -24,7 +28,7 @@ See [deployment](#deployment) section on how to deploy a project as a live syste
 
 ## Pre-requisites
 
-What you need in order to run this project & where to go / how to install them.
+Please see each project's README file.
 
 # How To For ...
 
