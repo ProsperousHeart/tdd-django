@@ -26,6 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - main project README with:
     1. info on the system this code was written on and with what tools
     2. how to test locally
+    3. additional information for pytest
 
 ## [1.3.1] - 2024-05-11
 

@@ -38,6 +38,8 @@ Please note that everything written in this repo done by the repo owner is done 
 
 Never heard of WSL? I share more on this [here](https://prosperousheart.com/windows-terminal/) when I fan girl out on the (at the time) latest version of Windows command line features that was made available to me.
 
+See [here](./TestDrivenIO/README.md#getting-started) for **TestDrivenIO** getting started.
+
 ## Installing
 
 Step by step explanation on how to get a development ENV running.
@@ -52,27 +54,9 @@ How to use this solution.
 
 If additional documentation is stored elsewhere, it will be noted here.
 
-### Testing Locally
-
-#### Local Spin Up
-
-Change into your high level directory and run:
-
-`docker-compose up -d --build`
-
-If you haven't already (re)built it, this will use the [docker-compose.yaml](docker-compose.yml) file to build and then bring up a detached instance.
-
-If you can access http://localhost:8009/ then you're good.
-
-Run in docker:
-
-`docker-compose exec SERVICE TESTING`
-
-... where `SERVICE` is the Django service folder you wish to test and `TESTING` is the normal pytest commands you would use.
-
-#### Local Shut Down
-
-`docker-compose down -v`
+Since using pytest, check out the following for more info:
+- [All You Need to Know to Start Using Fixtures in Your pytest Code](https://pybit.es/articles/pytest-fixtures/)
+- the [Fixtures section](https://testdriven.io/blog/pytest-for-beginners/#fixtures) from [Pytest for Beginners](https://testdriven.io/blog/pytest-for-beginners/)
 
 # Support Information
 
