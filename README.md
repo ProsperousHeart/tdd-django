@@ -20,6 +20,14 @@ The [first milestone](https://github.com/ProsperousHeart/tdd-django/milestone/1)
 
 Additional milestones will be other tutorials as needed.
 
+When writing test, the goal is to utilize the [given-when-then](https://martinfowler.com/bliki/GivenWhenThen.html) framework.
+
+| **State** | **Explanation** | **Code** |
+| :---: | :--- | :--- |
+| Given | the state of the application before the test runs | setup code, fixtures, database state |
+| When | the behavior/logic being tested | code under test |
+| Then | the expected changes based on the behavior | asserts |
+
 # Getting Started
 
 These instructions will provide a copy of the project & get you running on your local machine for development and testing purposes.
@@ -31,6 +39,14 @@ See [deployment](#deployment) section on how to deploy a project as a live syste
 Please see each project's README file.
 
 # How To For ...
+
+This section will be your general "how to" guide when using this project.
+
+Please note that everything written in this repo done by the repo owner is done on a Windows PC that utilizes WSL and using [VS Code](https://code.visualstudio.com/) as my IDE.
+
+Never heard of WSL? I share more on this [here](https://prosperousheart.com/windows-terminal/) when I fan girl out on the (at the time) latest version of Windows command line features that was made available to me.
+
+See [here](./TestDrivenIO/README.md#getting-started) for **TestDrivenIO** getting started.
 
 ## Installing
 
@@ -45,6 +61,11 @@ Information on how to deploy to a live system.
 How to use this solution.
 
 If additional documentation is stored elsewhere, it will be noted here.
+
+Since using pytest, check out the following for more info:
+- [All You Need to Know to Start Using Fixtures in Your pytest Code](https://pybit.es/articles/pytest-fixtures/)
+- the [Fixtures section](https://testdriven.io/blog/pytest-for-beginners/#fixtures) from [Pytest for Beginners](https://testdriven.io/blog/pytest-for-beginners/)
+- [Fixture finalization / executing teardown code](https://docs.pytest.org/en/latest/explanation/fixtures.html#improvements-over-xunit-style-setup-teardown-functions)
 
 # Support Information
 
