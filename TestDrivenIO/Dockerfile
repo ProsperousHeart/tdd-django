@@ -2,7 +2,7 @@
 FROM python:3.11.2-slim-buster
 
 # set working directory
-WORKDIR /usr/src/app
+WORKDIR /usr/src/TestDrivenIO
 
 # set environment variables
 ENV PYTHONDONTWRITEBYTECODE 1
@@ -19,14 +19,14 @@ RUN pip install --upgrade pip
 COPY ./requirements.txt .
 RUN pip install -r requirements.txt
 
-# new
-# copy entrypoint.sh
-COPY ./movies/entrypoint.sh /usr/src/app/entrypoint.sh
-RUN chmod +x /usr/src/app/entrypoint.sh
+# # new
+# # copy entrypoint.sh
+# COPY ./entrypoint.sh /usr/src/TestDrivenIO/entrypoint.sh
+# RUN chmod +x /usr/src/TestDrivenIO/entrypoint.sh
 
-# add app
-COPY . .
+# # add app
+# COPY . .
 
-# new
-# run entrypoint.sh
-ENTRYPOINT ["/usr/src/app/entrypoint.sh"]
+# # new
+# # run entrypoint.sh
+# ENTRYPOINT ["/usr/src/TestDrivenIO/entrypoint.sh"]
