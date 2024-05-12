@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 2. MINOR version when you add functionality in a backward compatible manner
 3. PATCH version when you make backward compatible bug fixes
 
-## [Unreleased]
+## [Unreleased] [1.3.1] - 2024-05-11
 
 ### Added
 
@@ -33,6 +33,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - locally updated file permnissions for [entrypoint.sh](./TestDrivenIO/movies/entrypoint.sh) with `chmod +x movies/entrypoint.sh`
 - update [Dockerfile](./TestDrivenIO/Dockerfile) to install required dependency, copy entrypoint, and run it as Docker [entrypoint](https://docs.docker.com/engine/reference/builder/#entrypoint) command
 - updated `.env.dev` to include DATABASE environment
+
+### Fixed
+
+- [Dockerfile](./TestDrivenIO/Dockerfile) not pulling entrypoint properly & missing command in setup
 
 ##  [1.2.0] - 2024-05-11
 

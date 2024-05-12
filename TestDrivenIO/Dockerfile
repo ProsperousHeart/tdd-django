@@ -11,7 +11,7 @@ ENV PYTHONUNBUFFERED 1
 # updated
 # install system dependencies
 RUN apt-get update \
-  && apt-get -y install gcc postgresql \
+  && apt-get -y install netcat gcc postgresql \
   && apt-get clean
 
 # install dependencies
@@ -21,7 +21,7 @@ RUN pip install -r requirements.txt
 
 # new
 # copy entrypoint.sh
-COPY ./entrypoint.sh /usr/src/app/entrypoint.sh
+COPY ./movies/entrypoint.sh /usr/src/app/entrypoint.sh
 RUN chmod +x /usr/src/app/entrypoint.sh
 
 # add app
