@@ -1,5 +1,6 @@
 #!/bin/sh
 
+# continues until "Connection to movies-db port 5432 [tcp/postgresql] succeeded!" returned
 if [ "$DATABASE" = "postgres" ]
 then
     echo "Waiting for postgres..."
