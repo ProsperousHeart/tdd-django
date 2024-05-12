@@ -32,6 +32,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - additional commands
 - locally updated file permnissions for [entrypoint.sh](./TestDrivenIO/movies/entrypoint.sh) with `chmod +x movies/entrypoint.sh`
 - update [Dockerfile](./TestDrivenIO/Dockerfile) to install required dependency, copy entrypoint, and run it as Docker [entrypoint](https://docs.docker.com/engine/reference/builder/#entrypoint) command
+- updated `.env.dev` to include DATABASE environment
 
 ##  [1.2.0] - 2024-05-11
 
