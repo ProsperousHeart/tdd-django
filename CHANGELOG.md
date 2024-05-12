@@ -22,6 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Updated
 
 - RealPython's [README.md](./RealPython/README.md) to include name of venv I made, since I now have multiple projects in this main folder
+- defined global [settings](http://www.django-rest-framework.org/tutorial/quickstart/#settings) for REST framework
 
 ## [1.4.1] - 2024-05-12
 
