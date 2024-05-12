@@ -52,6 +52,27 @@ How to use this solution.
 
 If additional documentation is stored elsewhere, it will be noted here.
 
+### Testing Locally
+
+#### Local Spin Up
+
+Change into your high level directory and run:
+
+`docker-compose up -d --build`
+
+If you haven't already (re)built it, this will use the [docker-compose.yaml](docker-compose.yml) file to build and then bring up a detached instance.
+
+If you can access http://localhost:8009/ then you're good.
+
+Run in docker:
+
+`docker-compose exec SERVICE TESTING`
+
+... where `SERVICE` is the Django service folder you wish to test and `TESTING` is the normal pytest commands you would use.
+
+#### Local Shut Down
+
+`docker-compose down -v`
 
 # Support Information
 

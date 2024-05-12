@@ -22,7 +22,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Updated
 
-- main project README with info on the system this code was written on and with what tools
+- main project README with:
+    1. info on the system this code was written on and with what tools
+    2. how to test locally
 
 ## [1.3.1] - 2024-05-11
 
