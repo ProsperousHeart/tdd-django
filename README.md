@@ -32,6 +32,12 @@ Please see each project's README file.
 
 # How To For ...
 
+This section will be your general "how to" guide when using this project.
+
+Please note that everything written in this repo done by the repo owner is done on a Windows PC that utilizes WSL and using [VS Code](https://code.visualstudio.com/) as my IDE.
+
+Never heard of WSL? I share more on this [here](https://prosperousheart.com/windows-terminal/) when I fan girl out on the (at the time) latest version of Windows command line features that was made available to me.
+
 ## Installing
 
 Step by step explanation on how to get a development ENV running.
@@ -45,6 +51,7 @@ Information on how to deploy to a live system.
 How to use this solution.
 
 If additional documentation is stored elsewhere, it will be noted here.
+
 
 # Support Information
 
