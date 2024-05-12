@@ -20,6 +20,14 @@ The [first milestone](https://github.com/ProsperousHeart/tdd-django/milestone/1)
 
 Additional milestones will be other tutorials as needed.
 
+When writing test, the goal is to utilize the [given-when-then](https://martinfowler.com/bliki/GivenWhenThen.html) framework.
+
+| **State** | **Explanation** | **Code** |
+| :---: | :--- | :--- |
+| Given | the state of the application before the test runs | setup code, fixtures, database state |
+| When | the behavior/logic being tested | code under test |
+| Then | the expected changes based on the behavior | asserts |
+
 # Getting Started
 
 These instructions will provide a copy of the project & get you running on your local machine for development and testing purposes.
