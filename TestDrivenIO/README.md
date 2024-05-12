@@ -35,11 +35,41 @@ This course covered a wide variety of technologies and services:
 | /api/movies/:id | PUT | UPDATE | update a movie |
 | /api/movies/:id | DELETE | DELETE | delete a movie |
 
+# Getting Started
+
+These instructions will provide a copy of the project & get you running on your local machine for development and testing purposes.
+
+See [deployment](#deployment) section on how to deploy a project as a live system.
+
+## Pre-requisites
+
+Please see each project's README file.
+
+### Testing Locally
+
+#### Local Spin Up
+
+Change into your high level directory and run:
+
+`docker-compose up -d --build`
+
+If you haven't already (re)built it, this will use the [docker-compose.yaml](docker-compose.yml) file to build and then bring up a detached instance.
+
+If you can access http://localhost:8009/ then you're good.
+
+Run in docker:
+
+`docker-compose exec SERVICE TESTING`
+
+... where `SERVICE` is the Django service folder you wish to test and `TESTING` is the normal pytest commands you would use.
+
+#### Local Shut Down
+
+`docker-compose down -v`
+
 # Lessons Learned
 
 It's a good idea to configure a custom User model when [starting a new Django project](https://docs.djangoproject.com/en/4.1/topics/auth/customizing/#using-a-custom-user-model-when-starting-a-project). For more, review [Creating a Custom User Model in Django](https://testdriven.io/blog/django-custom-user-model).
-
-# Section Details
 
 ## Docker Info
 

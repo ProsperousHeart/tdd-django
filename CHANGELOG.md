@@ -20,10 +20,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [README.md](./TestDrivenIO/tests/README.md) for new test folder structure
 - [pytest.ini](./TestDrivenIO/pytest.ini) file to define the [DJANGO_SETTINGS_MODULE](https://pytest-django.readthedocs.io/en/latest/configuring_django.html#configuring-django-settings) environment variable to point to the Django settings file and the standard test discovery rules (for explicitness)
 - [conftest.py](./TestDrivenIO/conftest.py) to use a different DB during test runs
+- [TestDrivenIO README](./TestDrivenIO/README.md) getting started section (e.g.: how to spin up docker)
 
 ### Updated
 
-- main project README with:
+- main project [README](./README.md) with:
     1. info on the system this code was written on and with what tools
     2. how to test locally
     3. additional information for pytest
