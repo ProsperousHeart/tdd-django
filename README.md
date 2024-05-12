@@ -28,6 +28,11 @@ When writing test, the goal is to utilize the [given-when-then](https://martinfo
 | When | the behavior/logic being tested | code under test |
 | Then | the expected changes based on the behavior | asserts |
 
+Since we're using Django, we will also use the [Django REST Framework (DRF)](https://www.django-rest-framework.org/). Official tutorial [here](https://www.django-rest-framework.org/tutorial/1-serialization/) for more on:
+- [serializers](https://www.django-rest-framework.org/api-guide/serializers/) - used to convert Django querysets and model instances to (serialization) and from (deserialization) JSON (and a number of other data rendering formats like XML and YAML)
+- [Views](https://www.django-rest-framework.org/api-guide/views/) / [ViewSets](https://www.django-rest-framework.org/api-guide/viewsets/) - uses the serializers to validate incoming payloads and contains the necessary logic to return the response
+- [routers](https://www.django-rest-framework.org/api-guide/routers/)
+
 # Getting Started
 
 These instructions will provide a copy of the project & get you running on your local machine for development and testing purposes.
