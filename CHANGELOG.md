@@ -16,6 +16,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - pytest and pytest-django to [requirements.txt](./TestDrivenIO/requirements.txt)
+- tests folder structure
+- [README.md](./TestDrivenIO/tests/README.md) for new test folder structure
 
 ## [1.3.1] - 2024-05-11
 
