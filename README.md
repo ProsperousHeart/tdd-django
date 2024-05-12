@@ -57,6 +57,7 @@ If additional documentation is stored elsewhere, it will be noted here.
 Since using pytest, check out the following for more info:
 - [All You Need to Know to Start Using Fixtures in Your pytest Code](https://pybit.es/articles/pytest-fixtures/)
 - the [Fixtures section](https://testdriven.io/blog/pytest-for-beginners/#fixtures) from [Pytest for Beginners](https://testdriven.io/blog/pytest-for-beginners/)
+- [Fixture finalization / executing teardown code](https://docs.pytest.org/en/latest/explanation/fixtures.html#improvements-over-xunit-style-setup-teardown-functions)
 
 # Support Information
 
