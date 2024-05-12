@@ -15,6 +15,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 TBD
 
+## [1.3.1] - 2024-05-11
+
+### Added
+
+- configured volume so data can persist beyond life of container ([.docker-compose.yaml](docker-compose.yml))
+- added ENV key to define a name for default DB & credentials - learn more about ENV vars [here](https://hub.docker.com/_/postgres)
+- updated [requirements.txt](requirements.txt) to install [Psycopg](https://www.psycopg.org/docs/) (PostgreSQL database adapter for Python)
+- TestDrivenIO [entrypoint.sh](./TestDrivenIO/movies/entrypoint.sh) since the `movies` service is dependent on container being up and running as well sa the Postgres instance being healthy
+
+### Changed
+
+- updated `.env.dev` to include SQL environment information
+- setup `DATABASES` in [settings.py](./TestDrivenIO/drf_project/settings.py) to configure the database based on ENV vars defined
+- added linux commands to ensure system is updated before installing dependencies
+- updated [TestDrivenIO README](./TestDrivenIO/README.md) to:
+    - include info on starting up and building Docker image after changes
+    - how to migrate Django models within Docker
+    - addition of explanation for bringing down volumes
+    - additional commands
+- locally updated file permnissions for [entrypoint.sh](./TestDrivenIO/movies/entrypoint.sh) with `chmod +x movies/entrypoint.sh`
+- update [Dockerfile](./TestDrivenIO/Dockerfile) to install required dependency, copy entrypoint, and run it as Docker [entrypoint](https://docs.docker.com/engine/reference/builder/#entrypoint) command
+- updated `.env.dev` to include DATABASE environment
+
+### Fixed
+
+- [Dockerfile](./TestDrivenIO/Dockerfile) not pulling entrypoint properly & missing command in setup
+
 ##  [1.2.0] - 2024-05-11
 
 ### Added
