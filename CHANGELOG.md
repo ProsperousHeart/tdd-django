@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - info on Django RESTful Framework (DRF) in main [README.md](README.md)
 - [RealPython project](./RealPython/) folder setup & README update with link to site
+- initial RealPython Django project setup for pet store
 
 ### Updated
 
