@@ -21,12 +21,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Updated main README with additional information (incomplete, since building multiple apps here)
-- updated TestDrivenIO README with additional useful tips
+- updated TestDrivenIO README with additional useful tips & link to Docker info
 - updated .gitignore to include all sqlite3 items, not just the default template ones
+- removed deprecated version from `docker-compose.yml`
 
 ### Removed
 
 - TestDrivenIO requirements ... only added the two main installs (which should install the others when run)
+- TestDrivenIO SQL DB - we'll be using postgres
 
 ## [1.1.0] - 2024-05-10
 

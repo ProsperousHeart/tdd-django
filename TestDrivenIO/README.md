@@ -7,7 +7,7 @@ This course covered a wide variety of technologies and services:
 ## Core
 1. Python
 2. Django
-3. Docker
+3. [Docker](https://docs.docker.com/get-docker/)
 4. Postgres
 5. Django REST Framework
 6. Gunicorn
@@ -38,3 +38,9 @@ This course covered a wide variety of technologies and services:
 # Lessons Learned
 
 It's a good idea to configure a custom User model when [starting a new Django project](https://docs.djangoproject.com/en/4.1/topics/auth/customizing/#using-a-custom-user-model-when-starting-a-project). For more, review [Creating a Custom User Model in Django](https://testdriven.io/blog/django-custom-user-model).
+
+# Docker Info
+
+Be sure you are in the TestDrivenIO folder. Run the following in WSL:
+1. To start Docker container:  `docker-compose up -d`
+2. To bring down container:  `docker-compose down -v`
