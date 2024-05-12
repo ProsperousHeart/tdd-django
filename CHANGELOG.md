@@ -11,7 +11,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 2. MINOR version when you add functionality in a backward compatible manner
 3. PATCH version when you make backward compatible bug fixes
 
-## [Unreleased] [1.3.1] - 2024-05-11
+## [Unreleased]
+
+TBD
+
+## [1.3.1] - 2024-05-11
 
 ### Added
 
