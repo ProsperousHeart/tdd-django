@@ -11,11 +11,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 2. MINOR version when you add functionality in a backward compatible manner
 3. PATCH version when you make backward compatible bug fixes
 
-## [Unreleased]
+## [Unreleased] - RealPython Project Setup & Completion
 
 ### Added
 
 - info on Django RESTful Framework (DRF) in main [README.md](README.md)
+- [RealPython project](./RealPython/) folder setup & README update with link to site
+- initial RealPython Django project setup for pet store with puppies app
+- setup test section for puppies app
+- create [Puppy Model](./RealPython/puppy_store/puppies/models.py) & serializer
+- start test file for puppies app 
+- create skeleton of puppies [Views.py](./RealPython/puppy_store/puppies/views.py) then map in [urls.py](./RealPython/puppy_store/puppies/urls.py) & [urls.py](./RealPython/puppy_store/puppy_store/urls.py)
+- unit tests for fetching a single puppy (get valid / invalid)
+- unit tests for inserting a new record (insert valid / invalid)
+- unit test to update a single Puppy record
+- unit test to delete a single Puppy record
+
+### Updated
+
+- RealPython's [README.md](./RealPython/README.md) to include:
+    1. name of venv I made, since I now have multiple projects in this main folder
+    2. how to use the program once code is cloned
+- defined global [settings](http://www.django-rest-framework.org/tutorial/quickstart/#settings) for REST framework (allows unrestricted access to the API and sets default test format to JSON for all requests) ... review [here](http://www.django-rest-framework.org/api-guide/permissions/#setting-the-permission-policy) for more
+- unit test for getting all validated Puppy items then update related view so it passes test
+- updating views for fetching all Puppy items and single
+- updating view for inserting (POST) new Puppy
+- updating view for updating details of a single Puppy
+- updating view for deleting a single Puppy
 
 ## [1.4.1] - 2024-05-12
 
