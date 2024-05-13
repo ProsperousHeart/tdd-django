@@ -11,18 +11,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 2. MINOR version when you add functionality in a backward compatible manner
 3. PATCH version when you make backward compatible bug fixes
 
-## [Unreleased]
+## [Unreleased] - RealPython Project Setup & Completion
 
 ### Added
 
 - info on Django RESTful Framework (DRF) in main [README.md](README.md)
 - [RealPython project](./RealPython/) folder setup & README update with link to site
 - initial RealPython Django project setup for pet store with puppies app
+- setup test section for puppies app
 
 ### Updated
 
 - RealPython's [README.md](./RealPython/README.md) to include name of venv I made, since I now have multiple projects in this main folder
-- defined global [settings](http://www.django-rest-framework.org/tutorial/quickstart/#settings) for REST framework
+- defined global [settings](http://www.django-rest-framework.org/tutorial/quickstart/#settings) for REST framework (allows unrestricted access to the API and sets default test format to JSON for all requests) ... review [here](http://www.django-rest-framework.org/api-guide/permissions/#setting-the-permission-policy) for more
 
 ## [1.4.1] - 2024-05-12
 
