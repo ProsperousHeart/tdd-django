@@ -25,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - unit tests for fetching a single puppy (get valid / invalid)
 - unit tests for inserting a new record (insert valid / invalid)
 - unit test to update a single Puppy record
+- unit test to delete a single Puppy record
 
 ### Updated
 
