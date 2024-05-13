@@ -37,6 +37,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - updating views for fetching all Puppy items and single
 - updating view for inserting (POST) new Puppy
 - updating view for updating details of a single Puppy
+- updating view for deleting a single Puppy
 
 ## [1.4.1] - 2024-05-12
 
