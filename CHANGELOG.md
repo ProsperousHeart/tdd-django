@@ -35,6 +35,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - unit test for getting all validated Puppy items then update related view so it passes test
 - updating views for fetching all Puppy items and single
 - updating view for inserting (POST) new Puppy
+- updating view for updating details of a single Puppy
 
 ## [1.4.1] - 2024-05-12
 

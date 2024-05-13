@@ -7,8 +7,8 @@ from .models import Puppy
 from .serializers import PuppySerializer
 
 
-# @api_view(['GET', 'DELETE', 'PUT'])
-@api_view(['GET', 'UPDATE', 'DELETE'])
+@api_view(['GET', 'DELETE', 'PUT'])
+# @api_view(['GET', 'UPDATE', 'DELETE'])  # this change was here when doing the single update then went back to previosu line
 def get_delete_update_puppy(request, pk):
     try:
         puppy = Puppy.objects.get(pk=pk)
@@ -23,9 +23,14 @@ def get_delete_update_puppy(request, pk):
     # delete a single puppy
     elif request.method == 'DELETE':
         return Response({})
-    # # update details of a single puppy
-    # elif request.method == 'PUT':
-    #     return Response({})
+    # update details of a single puppy
+    elif request.method == 'PUT':
+        # return Response({})
+        serializer = PuppySerializer(puppy, data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_204_NO_CONTENT)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
 @api_view(['GET', 'POST'])
