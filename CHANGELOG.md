@@ -22,7 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - create [Puppy Model](./RealPython/puppy_store/puppies/models.py) & serializer
 - start test file for puppies app 
 - create skeleton of puppies [Views.py](./RealPython/puppy_store/puppies/views.py) then map in [urls.py](./RealPython/puppy_store/puppies/urls.py) & [urls.py](./RealPython/puppy_store/puppy_store/urls.py)
-- unit tests for fetching a single puppy (get valid / invalid)
+- unit tests for fetching a single puppy (get valid / invalid) & updating appropriate view
 
 ### Updated
 
