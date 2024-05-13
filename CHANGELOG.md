@@ -19,7 +19,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [RealPython project](./RealPython/) folder setup & README update with link to site
 - initial RealPython Django project setup for pet store with puppies app
 - setup test section for puppies app
-- create Puppy Model & serializer
+- create [Puppy Model](./RealPython/puppy_store/puppies/models.py) & serializer
+- start test file for puppies app 
+- create skeleton of puppies [Views.py](./RealPython/puppy_store/puppies/views.py) then map in [urls.py](./RealPython/puppy_store/puppies/urls.py) & [urls.py](./RealPython/puppy_store/puppy_store/urls.py)
 
 ### Updated
 
