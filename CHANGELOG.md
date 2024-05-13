@@ -24,7 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - create skeleton of puppies [Views.py](./RealPython/puppy_store/puppies/views.py) then map in [urls.py](./RealPython/puppy_store/puppies/urls.py) & [urls.py](./RealPython/puppy_store/puppy_store/urls.py)
 - unit tests for fetching a single puppy (get valid / invalid)
 - unit tests for inserting a new record (insert valid / invalid)
-
+- unit test to update a single Puppy record
 
 ### Updated
 
