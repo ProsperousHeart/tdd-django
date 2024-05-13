@@ -19,7 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [RealPython project](./RealPython/) folder setup & README update with link to site
 - initial RealPython Django project setup for pet store with puppies app
 - setup test section for puppies app
-- create Puppy Model
+- create Puppy Model & serializer
 
 ### Updated
 
