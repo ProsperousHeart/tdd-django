@@ -32,6 +32,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - defined global [settings](http://www.django-rest-framework.org/tutorial/quickstart/#settings) for REST framework (allows unrestricted access to the API and sets default test format to JSON for all requests) ... review [here](http://www.django-rest-framework.org/api-guide/permissions/#setting-the-permission-policy) for more
 - unit test for getting all validated Puppy items then update related view so it passes test
 - updating views for fetching all Puppy items and single
+- updating view for inserting (POST) new Puppy
 
 ## [1.4.1] - 2024-05-12
 
