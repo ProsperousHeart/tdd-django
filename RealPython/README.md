@@ -49,7 +49,29 @@ Please see each project's README file.
 
 ## Testing Locally
 
-TBD
+After cloning the repo:
+
+```
+cd RealPython\puppy_store
+python manage.py runserver
+```
+
+To view all Puppy items or submit a new one, go to:
+http://localhost:8000/api/v1/puppies/
+
+If any are already in the DB, you can see them when the site lds. To test a new insertion, you can submit a similar JSON:
+
+```json
+{
+    "name": "Muffin",
+    "age": 4,
+    "breed": "Pamerion",
+    "color": "White"
+}
+```
+
+To be a single Puppy item, go to the URL where **pk** is a number:
+http://localhost:8000/api/v1/puppies/pk
 
 # Deployment
 
