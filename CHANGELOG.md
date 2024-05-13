@@ -22,13 +22,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - create [Puppy Model](./RealPython/puppy_store/puppies/models.py) & serializer
 - start test file for puppies app 
 - create skeleton of puppies [Views.py](./RealPython/puppy_store/puppies/views.py) then map in [urls.py](./RealPython/puppy_store/puppies/urls.py) & [urls.py](./RealPython/puppy_store/puppy_store/urls.py)
-- unit tests for fetching a single puppy (get valid / invalid) & updating appropriate view
+- unit tests for fetching a single puppy (get valid / invalid)
+- unit tests for inserting a new record (insert valid / invalid)
+
 
 ### Updated
 
 - RealPython's [README.md](./RealPython/README.md) to include name of venv I made, since I now have multiple projects in this main folder
 - defined global [settings](http://www.django-rest-framework.org/tutorial/quickstart/#settings) for REST framework (allows unrestricted access to the API and sets default test format to JSON for all requests) ... review [here](http://www.django-rest-framework.org/api-guide/permissions/#setting-the-permission-policy) for more
 - unit test for getting all validated Puppy items then update related view so it passes test
+- updating views for fetching all Puppy items and single
 
 ## [1.4.1] - 2024-05-12
 
